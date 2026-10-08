@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <rect width="100" height="100" rx="20" fill="#0A192F" />
+  <!-- Water wave / drop combined with geometric tower / bridge engineering lines -->
+  <path d="M50 15 C50 15 25 45 25 62 C25 76 36 85 50 85 C64 85 75 76 75 62 C75 45 50 15 50 15 Z" fill="url(#cyanGrad)" fill-opacity="0.25" stroke="#0284C7" stroke-width="3" />
+  <!-- Structural engineering trusses and golden beam -->
+  <path d="M35 70 L65 70" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" />
+  <path d="M40 55 L60 55" stroke="#F59E0B" stroke-width="3.5" stroke-linecap="round" />
+  <path d="M45 42 L55 42" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" />
+  <path d="M50 25 L50 78" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" />
+  <path d="M38 70 L50 55 L62 70" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="50" cy="24" r="4.5" fill="#F59E0B" />
+  <defs>
+    <linearGradient id="cyanGrad" x1="50" y1="15" x2="50" y2="85" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" />
+      <stop offset="1" stop-color="#0284C7" />
+    </linearGradient>
+  </defs>
+</svg>
