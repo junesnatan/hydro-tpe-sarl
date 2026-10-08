@@ -16,8 +16,8 @@ export const Hero = ({ onOpenQuoteModal }) => {
           }}
         ></div>
 
-        {/* Soft elegant gradient overlay: Crisp readable white on left, revealing the crane & structure on right */}
-        <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-transparent sm:from-white/95 sm:via-white/75 sm:to-black/20"></div>
+        {/* Clean natural overlay: ensures crisp readability for text on the left while leaving the building and crane 100% clear and unshadowed on the right */}
+        <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/90 to-white/60 sm:via-white/80 sm:to-transparent sm:max-w-3xl"></div>
 
         {/* Content Container (Exact Built Right Mockup Left-Aligned Style) */}
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-12 sm:py-20 lg:py-24">
@@ -43,7 +43,7 @@ export const Hero = ({ onOpenQuoteModal }) => {
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
               <a
                 href="#services"
-                className="inline-flex items-center justify-center px-7 py-3.5 text-sm font-bold text-[#0B1B2B] bg-brand-gold hover:bg-amber-400 rounded-md shadow-md hover:shadow-lg transition-all group"
+                className="inline-flex items-center justify-center px-7 py-3.5 text-sm font-bold text-[#0B1B2B] bg-brand-gold hover:bg-amber-400 rounded-md shadow-sm hover:shadow transition-all group"
               >
                 <span>Nos Services</span>
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
@@ -51,7 +51,7 @@ export const Hero = ({ onOpenQuoteModal }) => {
 
               <a
                 href="#projets"
-                className="inline-flex items-center justify-center px-7 py-3.5 text-sm font-bold text-white bg-[#0B1B2B] hover:bg-slate-900 rounded-md shadow-md hover:shadow-lg transition-all group"
+                className="inline-flex items-center justify-center px-7 py-3.5 text-sm font-bold text-white bg-[#0B1B2B] hover:bg-slate-900 rounded-md shadow-sm hover:shadow transition-all group"
               >
                 <span>Voir les Projets</span>
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
@@ -65,7 +65,7 @@ export const Hero = ({ onOpenQuoteModal }) => {
 
       {/* 4 QUICK PILLARS STRIP (Exact Replica of Built Right Mockup: Dark Navy Row Overlapping/Docked Below Hero) */}
       <div className="relative -mt-10 sm:-mt-14 z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-[#0B1B2B] rounded-xl shadow-2xl p-6 sm:p-8 border border-slate-800">
+        <div className="bg-[#0B1B2B] rounded-xl shadow-lg border border-slate-800 p-6 sm:p-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 divide-y sm:divide-y-0 lg:divide-x divide-slate-800/80">
             
             {/* Pillar 1: Hydraulique & Forages */}

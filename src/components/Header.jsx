@@ -40,15 +40,10 @@ export const Header = ({ onOpenQuoteModal }) => {
             </div>
 
             <div className="flex flex-col">
-              <div className="flex items-baseline space-x-1.5">
-                <span className="font-heading font-black text-xl sm:text-2xl tracking-tight text-[#0B1B2B]">
-                  HYDRO TPE
-                </span>
-                <span className="text-[10px] font-black px-1.5 py-0.5 rounded bg-brand-gold text-[#0B1B2B]">
-                  SARL
-                </span>
-              </div>
-              <span className="text-[9px] uppercase font-bold tracking-widest text-slate-500 -mt-1">
+              <span className="font-heading font-black text-xl sm:text-2xl tracking-tight text-[#0B1B2B] leading-none">
+                HYDRO TPE <span className="text-brand-gold">SARL</span>
+              </span>
+              <span className="text-[9px] uppercase font-bold tracking-wider text-slate-500 mt-1">
                 Ingénierie Hydraulique & BTP • Bénin
               </span>
             </div>
